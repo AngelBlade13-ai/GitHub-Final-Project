@@ -1,0 +1,27 @@
+body {
+  background: repeating-linear-gradient(
+    45deg,
+    #000 0px,
+    #000 60px,
+    #facc15 60px,
+    #facc15 120px
+  );
+  min-height: 100vh;
+  text-align: center;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, .10);
+  pointer-events: none;
+}
+
+h1 {
+  background-color: beige;
+}
+p {
+  color: #ffffff;
+  font-size: larger;
+  background-color: gray;
+}
